@@ -1,0 +1,3 @@
+[submodule "tinybuild"]
+	path = tinybuild
+	url = https://github.com/Da-Ostrich-King/tinybuild

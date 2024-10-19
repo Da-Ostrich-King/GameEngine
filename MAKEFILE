@@ -1,0 +1,8 @@
+build:
+	g++ --std=c++20 ./tinybuild/tinybuild/main.cpp -o ./tbuild
+
+lib:
+	./tbuild -c -C lib
+
+test:
+	./tbuild -c -C test
