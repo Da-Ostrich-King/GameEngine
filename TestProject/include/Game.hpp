@@ -1,11 +1,15 @@
 #ifndef GAME_HPP
 #define GAME_HPP
 
-#include "../../include/GameEngine.hpp"
+#include "../../include/Core.hpp"
 
-class Game : public Engine::GameEngine {
+class Game : public Engine::Core {
 public:
     Game();
+    void initGameLoop();
+
+private:
+    bool isGame = true;
 };
 
 #endif

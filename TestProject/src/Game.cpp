@@ -1,5 +1,9 @@
 #include "../include/Game.hpp"
 
-Game::Game() {
-    
+Game::Game() {}
+
+void Game::initGameLoop() {
+    while (isGame) {
+        
+    }
 }

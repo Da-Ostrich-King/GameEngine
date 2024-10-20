@@ -9,7 +9,7 @@
 
 // This is the actual config for "GAMEENGINE?", other one is tinybuild default config
 
-#include "defines.hpp"
+#include "tinybuild/tinybuild/defines.hpp"
 #include <cstdlib>
 #include <string>
 #include <filesystem>
@@ -20,7 +20,7 @@
 #define EXTENSION "cpp"
 
 #define TINYBUILD_SOURCE_PATH "./tinybuild/tinybuild"
-#define REBUILD_COMMAND "g++ {} -o {} --std=c++20 -I. -Itinybuild/tinybuild"
+#define REBUILD_COMMAND "g++ {} -o {} --std=c++20"
 
 // yell at me i dont care
 void buildLib () {
